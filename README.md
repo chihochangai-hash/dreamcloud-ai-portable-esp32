@@ -27,7 +27,7 @@ Still in development. This repository currently holds the introduction, device s
 
 Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇叭。裡面住著一隻會長大的小龍；想問問題，或把待辦交給電腦上的 AI 助理，按住說話就好。
 
-每天改了什麼、接下來做什麼，以及收集意見，都在[官網](https://dreamcloud.ccwu.cc/)。
+每天的更新、接下來的計畫，還有意見回饋，都放在[官網](https://dreamcloud.ccwu.cc/)。
 
 ### 官網
 
@@ -53,7 +53,7 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 傾斜裝置可以飛過天空和森林關卡。也可以和 NPC 飛龍對決；待在主畫面時，收得到朋友的對戰邀請。
 
-孵化之後可以跟龍說話。在主畫面按住說話，牠會聽完再用語音回你。這條語音走電腦端，需要網路，不是在裝置上離線跑的。龍還是蛋，或正在飛行、對戰時，先不能對話。AI 夥伴仍然是另一個 App。
+孵化之後可以跟龍說話。在主畫面按住說話，牠會聽完再用語音回你。龍還是蛋，或正在飛行、對戰時，先不能對話。想專心聊天，可以打開 AI 夥伴這個 App。
 
 [到官網看龍寵 →](https://dreamcloud.ccwu.cc/dragon/)
 
@@ -67,11 +67,11 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 #### AI 夥伴與 AI 遙控
 
-AI 夥伴陪你聊天：按住說話，角色會聆聽、思考，再用語音回你。可以連接你選的主流 AI 服務，聲音有台灣口音、美式英文和英式英文。網路語音不能用時會自動換備援；一句回應講到一半也不會換聲音。
+AI 夥伴陪你聊天：按住說話，角色會聆聽、思考，再用語音回你。可以連接你選的主流 AI 服務，聲音有台灣口音、美式英文和英式英文。網路語音不能用時，會自動換成備用聲音。
 
-AI 遙控把一句話變成交給電腦上 AI 助理的任務。選助理、用語音或注音輸入、確認送出。等的時候看光環；完成後可以讀回覆，或聽語音摘要。只列出電腦上裝好的助理。預設需要配對碼，自己家的網路可以關掉。離開畫面後，回覆會用訊息泡泡通知。
+AI 遙控把一句話變成交給電腦上 AI 助理的任務。選助理、用語音或注音輸入、確認送出。等待時會有光環轉動；完成後可以讀回覆，或聽語音摘要。只列出電腦上裝好的助理。預設需要配對碼，自己家的網路可以關掉。離開畫面後，回覆會用訊息泡泡通知。
 
-AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和你自己的 AI 帳號。
+跟龍說話、AI 夥伴和 AI 遙控都需要網路和電腦端配套程式，AI 對話還需要你自己的 AI 帳號；龍寵照顧、飛行、對戰、小遊戲和工具則直接在裝置上就能用。
 
 [到官網看 AI →](https://dreamcloud.ccwu.cc/ai/)
 
@@ -79,7 +79,7 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 
 #### 計步與健走
 
-戴手腕或放口袋都能計。感測器暫時沒抓到時，會自動換另一種方法計。啟動器外圈有今日步數圓環，導覽列也會顯示步數。計步和每日目標可以分開設定。行走時間只算連續走路。
+戴手腕或放口袋都能計。感測器偶爾漏抓時，會改用備用算法補上。啟動器外圈有今日步數圓環，導覽列也會顯示步數。計步和每日目標可以分開設定。行走時間只算連續走路。
 
 健走 App 有最近 7 天的步數長條圖。點一天可以看步數、連續行走時間、估計距離、目標達成率，以及每小時分布。距離是估計值。
 
@@ -196,23 +196,20 @@ Dreamcloud 基於微雪的 [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.
 
 ### 常見問題
 
-**AI 是在裝置上離線運作的嗎？**  
-不是。龍寵的照顧、飛行、對戰，以及小遊戲和工具，可以直接在裝置上用。跟龍說話、AI 夥伴對話，和遠端任務，需要網路和電腦端配套程式。AI 對話還需要你自己的 AI 服務帳號。
-
-**龍寵會直接用 AI 跟我對話嗎？**  
-會。龍孵出來之後，在主畫面按住說話，牠會聆聽，再用語音回你。需要網路和電腦端配套程式。龍還是蛋的時候，或正在飛行、對戰時，先不能對話。AI 夥伴仍然是另一個 App。
+**沒有網路還能用嗎？**  
+養龍、飛行、對戰、小遊戲和工具都可以。跟龍說話和 AI 功能要連網，也要開著電腦端程式。
 
 **適合小朋友用嗎？**  
-有密碼保護的家長模式，可以設定 App 顯示和上課時段。介面也有注音。
+可以。家長模式有密碼保護，能決定顯示哪些 App、設定上課時段，介面也有注音。
 
 **計步一定要戴在手上嗎？**  
-不用。可以選手腕或口袋。距離是估計值。
+不用，放口袋也可以，在設定裡選就好。
 
 **電腦端要裝什麼？**  
-Windows 電腦端程式是一個檔案，雙擊就能用。AI 功能和鍵盤手把會用到它。即時通和手把也可以改用 Android 端程式。
+一個 Windows 程式檔，雙擊就能用。AI 功能和鍵盤手把會用到它；即時通和手把也可以改用 Android 端程式。
 
 **網站上的畫面是實機嗎？**  
-是。還在開發中，正式版畫面可能會不一樣。
+都是實機截圖。目前還在開發，正式版可能會有些不同。
 
 ### 說給我們聽
 
@@ -233,7 +230,7 @@ Windows 電腦端程式是一個檔案，雙擊就能用。AI 功能和鍵盤手
 
 Dreamcloud has a round AMOLED screen under two inches, with a microphone and a speaker. A little dragon lives on it and grows when you look after it. Hold the button and talk to ask a question, or to hand a task to an AI assistant on your computer.
 
-Progress and feedback live on the website: [dreamcloud.ccwu.cc](https://dreamcloud.ccwu.cc/).
+Development updates and feedback are on the website: [dreamcloud.ccwu.cc](https://dreamcloud.ccwu.cc/).
 
 ### Website
 
@@ -241,10 +238,10 @@ Each area has its own page.
 
 | | Page | What it covers |
 | --- | --- | --- |
-| 01 | [Dragon](https://dreamcloud.ccwu.cc/dragon/) | Raise it from an egg to an ancient dragon. Tilt-to-fly stages and duels |
+| 01 | [Dragon](https://dreamcloud.ccwu.cc/dragon/) | Raise it from an egg to a world-ending dragon (滅世龍). Tilt-to-fly stages and duels |
 | 02 | [AI Companion and AI Remote](https://dreamcloud.ccwu.cc/ai/) | Talk with an AI, or turn one sentence into a task for an assistant on your computer |
 | 03 | [Steps and walking](https://dreamcloud.ccwu.cc/steps/) | Today's step ring, a 7-day chart, and a breakdown of each day |
-| 04 | [Games](https://dreamcloud.ccwu.cc/games/) | A maze game, Bridge Runner, Bomber, rock-paper-scissors, and tic-tac-toe. A keyboard or phone can be the controller |
+| 04 | [Games](https://dreamcloud.ccwu.cc/games/) | Pac-Man-style maze (小精靈), Bridge Runner, Bomber, rock-paper-scissors, and tic-tac-toe. A keyboard or phone can be the controller |
 | 05 | [Other apps](https://dreamcloud.ccwu.cc/apps/) | Messenger, walkie-talkie, vocabulary, Zhuyin input, parent mode, and daily tools |
 | 06 | [Updates](https://dreamcloud.ccwu.cc/updates/) | What changed, what is next, and common questions |
 | 07 | [Forum](https://dreamcloud.ccwu.cc/forum/) | Bugs, questions, improvements, and wishes |
@@ -255,11 +252,11 @@ Round AMOLED under two inches · microphone and speaker · Wi‑Fi · motion and
 
 #### Dragon
 
-Feed it, let it sleep, or hold to hug it. Life, hunger, mood, and stamina change with that care. The six stages are egg, baby, juvenile, youth, adult, and ancient dragon. Each dragon has its own personality, level, and evolution stage.
+Feed it, let it sleep, or hold to hug it. Life, hunger, mood, and stamina change with that care. The six stages are egg, baby, juvenile, youth, adult, and world-ending dragon. Each dragon has its own personality, level, and evolution stage.
 
 Tilt the device to fly through sky and forest stages. You can also duel an NPC dragon. While the home screen is open, a friend's duel invite can still arrive.
 
-After it hatches, you can talk to the dragon. Hold to speak on its home screen, and it answers by voice. That voice goes through the computer companion and needs a network. It does not run offline on the device. The dragon cannot talk while it is still an egg, or during a flight stage or a duel. AI Companion is still a separate app.
+After it hatches, you can talk to the dragon. Hold to speak on its home screen, and it answers by voice. It cannot talk while it is still an egg, or during a flight stage or a duel. For longer chats, open the AI Companion app.
 
 [Dragon on the website →](https://dreamcloud.ccwu.cc/dragon/)
 
@@ -273,17 +270,17 @@ After it hatches, you can talk to the dragon. Hold to speak on its home screen, 
 
 #### AI Companion and AI Remote
 
-The companion listens while you hold to talk, then answers by voice. It connects to a mainstream AI service you choose. Voices include a Taiwanese accent, American English, and British English. If the network voice fails, a backup voice takes over. One reply is never switched to another voice halfway through.
+The companion listens while you hold to talk, then answers by voice. It connects to a mainstream AI service you choose. Voices include a Taiwanese accent, American English, and British English. If the online voice is unavailable, a backup voice takes over.
 
-AI Remote turns one sentence into a task for an AI assistant on your computer. Pick the assistant, dictate or type with Zhuyin, then confirm. A ring shows the wait. When it finishes, you can read the reply or hear a short spoken summary. Only assistants installed on that computer are listed. A pairing code is on by default, and you can turn it off on your home network. If you leave the screen, the reply comes back as a message bubble.
+AI Remote turns one sentence into a task for an AI assistant on your computer. Pick the assistant, dictate or type with Zhuyin, then confirm. A spinning ring shows it is working. When it finishes, you can read the reply or hear a short spoken summary. Only assistants installed on that computer are listed. A pairing code is on by default, and you can turn it off on your home network. If you leave the screen, the reply comes back as a message bubble.
 
-AI does not run offline on the device. It needs a network, the computer companion app, and your own AI account.
+Talking with the dragon, AI Companion, and AI Remote need a network and the computer companion app, and AI chat also needs your own AI account. Dragon care, flights, duels, games, and tools work on the device alone.
 
 [AI on the website →](https://dreamcloud.ccwu.cc/ai/)
 
 #### Steps and walking
 
-Count steps on a wrist or in a pocket. If the sensor misses a moment, another method fills the gap. The launcher draws today's steps as a ring, and the navigation bar shows the count too. The step counter and the daily goal are separate settings. Walking time counts continuous walking only.
+Count steps on a wrist or in a pocket. If the sensor misses some steps, a backup method fills them in. The launcher draws today's steps as a ring, and the navigation bar shows the count too. The step counter and the daily goal are separate settings. Walking time counts continuous walking only.
 
 The walking app shows the last seven days as bars. Tap a day for steps, continuous walking time, estimated distance, goal progress, and the hourly spread. Distance is an estimate.
 
@@ -296,7 +293,7 @@ The walking app shows the last seven days as bars. Tap a day for steps, continuo
 
 #### Games
 
-In the maze game, the mouth opens toward the way it moves. Tilt or swipe to steer, and you can queue the next turn. Each round starts with a countdown. The maze is orange-gold neon, and the music is original.
+In the Pac-Man-style maze game (小精靈), the mouth opens toward the way it moves. Tilt or swipe to steer, and you can queue the next turn. Each round starts with a countdown. The maze is orange-gold neon, and the music is original.
 
 Bridge Runner can be played alone, or with a nearby second device. It has chapters, upper and lower paths, and checkpoints. Progress is still there the next time you open it.
 
@@ -380,23 +377,20 @@ The full log is on the [updates page](https://dreamcloud.ccwu.cc/updates/). The 
 
 ### Questions
 
-**Does AI run offline on the device?**  
-No. Feeding, flights, duels, the games, and the tools run on the device. Talking with the dragon, the AI companion, and remote tasks need a network and the computer companion. AI conversation also needs your own AI account.
+**Does it work without internet?**  
+Raising the dragon, flights, duels, games, and tools all work. Talking with the dragon and the AI features need a network and the computer app running.
 
-**Does the dragon talk through the AI?**  
-Yes. After it hatches, hold to talk on its home screen. It listens and answers by voice. That needs a network and the computer companion. It cannot talk while it is still an egg, or during a flight stage or a duel. AI Companion is still a separate app.
+**Is it OK for kids?**  
+Yes. Password-protected parent mode lets you choose which apps show and set class hours, and the interface includes Zhuyin.
 
-**Can a child use it?**  
-Parent mode is behind a password. It can hide apps and set class hours. The interface includes Zhuyin.
+**Do I have to wear it on my wrist to count steps?**  
+No. A pocket works too; just pick it in settings.
 
-**Do steps require a wrist?**  
-No. Wrist and pocket modes are both available. Distance is an estimate.
-
-**What does the computer need?**  
-One Windows file. Double-click it. AI features and the keyboard controller use it. Messenger and the controller can use the Android app instead.
+**What do I install on the computer?**  
+One Windows program file; double-click to run. AI features and the keyboard controller use it. Messenger and the controller can use the Android app instead.
 
 **Are the pictures from a real device?**  
-Yes. This is a development build, so the finished screens may change.
+Yes, all real screenshots. It is still in development, so the final version may look a little different.
 
 ### Tell us
 
