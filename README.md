@@ -1,26 +1,37 @@
 # Dreamcloud
 
-一台掌心大的小裝置，我們還在慢慢把它做好。
+一台掌心大的小裝置，我們還在慢慢把它做好。  
+A pocket-size device. We are still building it.
 
-**官網：** [https://dreamcloud.ccwu.cc/](https://dreamcloud.ccwu.cc/)  
-**討論區：** [https://dreamcloud.ccwu.cc/forum/](https://dreamcloud.ccwu.cc/forum/)
+**基於 / Based on** [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-1.75C)
+
+Dreamcloud 跑在微雪這塊 1.75 吋圓形 AMOLED 開發板上。板子是 Waveshare 的；Dreamcloud 是我們在上面做的隨身介面。  
+Dreamcloud runs on Waveshare's 1.75-inch round AMOLED board. The board is theirs. Dreamcloud is the pocket interface we are building on it.
+
+**官網 / Website：** [https://dreamcloud.ccwu.cc/](https://dreamcloud.ccwu.cc/)  
+**討論區 / Forum：** [https://dreamcloud.ccwu.cc/forum/](https://dreamcloud.ccwu.cc/forum/)
+
+[中文](#中文) · [English](#english)
+
+它還在開發中。這個儲存庫目前先放專案介紹、實機畫面和 App 圖示，**韌體原始碼尚未放上**。  
+Still in development. This repository currently holds the introduction, device screenshots, and app icons. **Firmware source is not published yet.**
+
+<p>
+  <img src="docs/screenshots/launcher.png" width="220" alt="Launcher: AI Companion, AI Remote, vocabulary, and the pet dragon. The outer ring is today's step count.">
+  <img src="docs/screenshots/dragon.png" width="220" alt="Pet dragon home: a young dragon with life, hunger, mood, and stamina.">
+  <img src="docs/screenshots/walker.png" width="220" alt="Walking: a 7-day step chart.">
+  <img src="docs/screenshots/walkie.png" width="220" alt="Walkie-talkie: waiting for a nearby device.">
+</p>
+
+實機畫面（開發版） · Device screenshots, development build
+
+## 中文
 
 Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇叭。裡面住著一隻會長大的小龍；想問問題，或把待辦交給電腦上的 AI 助理，按住說話就好。
 
-它還在開發中。這個儲存庫目前先放專案介紹、實機畫面和 App 圖示，**韌體原始碼尚未放上**。每天改了什麼、接下來做什麼，以及收集意見，都在官網。
+每天改了什麼、接下來做什麼，以及收集意見，都在[官網](https://dreamcloud.ccwu.cc/)。
 
-這裡的畫面都是實機截圖，之後還會再改。
-
-<p>
-  <img src="docs/screenshots/launcher.png" width="220" alt="主選單：AI 夥伴、AI 遙控、單字學習、電子龍寵，外圈是今日步數圓環">
-  <img src="docs/screenshots/dragon.png" width="220" alt="龍寵主畫面：幼龍，周圍是生命、飽食、心情、體力">
-  <img src="docs/screenshots/walker.png" width="220" alt="健走：最近 7 天的步數長條圖">
-  <img src="docs/screenshots/walkie.png" width="220" alt="對講機：等待附近的裝置上線">
-</p>
-
-實機畫面（開發版）
-
-## 官網
+### 官網
 
 每一區都有自己的頁面，挑有興趣的看就好。
 
@@ -36,9 +47,9 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 不到兩吋圓形 AMOLED ・ 麥克風與喇叭 ・ Wi‑Fi ・ 體感與計步 ・ 繁中、注音、English ・ 家長模式
 
-## 裡面有什麼
+### 裡面有什麼
 
-### 龍寵
+#### 龍寵
 
 每天照顧牠一下，牠就會慢慢長大。餵食、睡覺、長按抱抱；生命、飽食、心情、體力會跟著變化。六個階段是龍蛋、幼龍、成長龍、青年龍、成年龍、滅世龍。每隻有自己的個性、等級和進化階段。
 
@@ -50,7 +61,7 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 <img src="docs/screenshots/dragon.png" width="280" alt="龍寵主畫面">
 
-### AI 夥伴與 AI 遙控
+#### AI 夥伴與 AI 遙控
 
 AI 夥伴陪你聊天：按住說話，角色會聆聽、思考，再用語音回你。可以連接你選的主流 AI 服務，聲音有台灣口音、美式英文和英式英文。網路語音不能用時會自動換備援；一句回應講到一半也不會換聲音。
 
@@ -62,7 +73,7 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 
 <img src="docs/screenshots/ai-remote.png" width="280" alt="AI 遙控：確認文字後送出">
 
-### 計步與健走
+#### 計步與健走
 
 戴手腕或放口袋都能計。感測器暫時沒抓到時，會自動換另一種方法計。啟動器外圈有今日步數圓環，導覽列也會顯示步數。計步和每日目標可以分開設定。行走時間只算連續走路。
 
@@ -72,7 +83,7 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 
 <img src="docs/screenshots/walker.png" width="280" alt="健走：7 天步數">
 
-### 遊戲
+#### 遊戲
 
 小精靈的嘴巴朝移動方向開合，傾斜或滑動都能操控，可以提前輸入下一個轉彎。每局開始有倒數，迷宮是橘金色霓虹，背景音樂是原創的。
 
@@ -87,7 +98,7 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
   <img src="docs/screenshots/bridge.png" width="280" alt="橋上跑者：單人開始或雙人合作">
 </p>
 
-### 其他 App
+#### 其他 App
 
 - **即時通：** 按住說話傳訊。可以接 LINE、Telegram、Discord、Slack、WhatsApp、企業微信或 FB Messenger，在電腦端或 Android 端選。
 - **對講機：** 選附近的好友，按住說話，也能傳文字。
@@ -103,20 +114,25 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
 
 <img src="docs/screenshots/walkie.png" width="280" alt="對講機">
 
-## 硬體
+### 硬體
 
-這版韌體跑在 Waveshare ESP32-S3-Touch-AMOLED-1.75C 上。
+Dreamcloud 基於微雪的 [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-1.75C)。圓形螢幕、觸控、喇叭、麥克風、Wi‑Fi 和六軸感測都來自這塊板子。板子的公開說明、原理圖和原廠範例在微雪文件與 [waveshareteam/ESP32-S3-Touch-AMOLED-1.75C](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C)。
 
 | | |
 | --- | --- |
-| 主控 | ESP32-S3 |
-| 螢幕 | 1.75 吋圓形 AMOLED，466×466，電容觸控 |
-| 聲音 | 麥克風、喇叭 |
-| 連線 | Wi‑Fi |
-| 體感 | 慣性感測，用來傾斜操作和計步 |
-| 儲存 | 32 MB flash，另有 PSRAM |
+| 開發板 | Waveshare ESP32-S3-Touch-AMOLED-1.75C |
+| 主控 | ESP32-S3R8，最高 240 MHz |
+| 螢幕 | 1.75 吋 466×466 AMOLED，CO5300，QSPI |
+| 觸控 | CST9217 電容觸控 |
+| 聲音 | 板載麥克風與喇叭 |
+| 無線 | 2.4 GHz Wi‑Fi、Bluetooth 5 LE |
+| 體感 | QMI8658 六軸感測（加速度計與陀螺儀） |
+| 儲存 | 32 MB Flash、8 MB PSRAM |
+| 介面 | USB Type-C，外殼可放電池 |
 
-## App 圖示
+### App 圖示
+
+<a id="app-icons"></a>
 
 <p>
   <img src="docs/icons/ai-companion.png" width="72" alt="AI 夥伴">
@@ -141,7 +157,7 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
 上排：AI 夥伴、AI 遙控、單字學習、電子龍寵、對講機、即時通、橋上跑者、小精靈。  
 下排：炸彈人、猜拳、井字遊戲、時鐘、計算機、家長模式、設定。
 
-## 最近的進度
+### 最近的進度
 
 完整日誌在官網的[更新與開發進度](https://dreamcloud.ccwu.cc/updates/)，討論區也有每天的紀錄。
 
@@ -152,7 +168,7 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
 - **10/16** 健走上線。Windows 電腦端程式收成一個檔案就能用。
 - **10/13** 即時通可以在電腦端選擇要接哪一個通訊平台。
 
-## 常見問題
+### 常見問題
 
 **AI 是在裝置上離線運作的嗎？**  
 不是。龍寵、小遊戲和工具可以直接在裝置上用。AI 對話和遠端任務需要網路、電腦端配套程式，和你自己的 AI 服務帳號。
@@ -172,7 +188,7 @@ Windows 電腦端程式是一個檔案，雙擊就能用。AI 功能和鍵盤手
 **網站上的畫面是實機嗎？**  
 是。還在開發中，正式版畫面可能會不一樣。
 
-## 說給我們聽
+### 說給我們聽
 
 不管是壞掉的地方、看不懂的地方，還是希望它會做的事，都很歡迎留言。不用註冊，訪客也能發文。
 
@@ -182,3 +198,144 @@ Windows 電腦端程式是一個檔案，雙擊就能用。AI 功能和鍵盤手
 - [許願](https://dreamcloud.ccwu.cc/forum/?c=feature)
 
 [到討論區留言 →](https://dreamcloud.ccwu.cc/forum/)
+
+## English
+
+Dreamcloud has a round AMOLED screen under two inches, with a microphone and a speaker. A little dragon lives on it and grows when you look after it. Hold the button and talk to ask a question, or to hand a task to an AI assistant on your computer.
+
+Progress and feedback live on the website: [dreamcloud.ccwu.cc](https://dreamcloud.ccwu.cc/).
+
+### Website
+
+Each area has its own page.
+
+| | Page | What it covers |
+| --- | --- | --- |
+| 01 | [Dragon](https://dreamcloud.ccwu.cc/dragon/) | Raise it from an egg to an ancient dragon. Tilt-to-fly stages and duels |
+| 02 | [AI Companion and AI Remote](https://dreamcloud.ccwu.cc/ai/) | Talk with an AI, or turn one sentence into a task for an assistant on your computer |
+| 03 | [Steps and walking](https://dreamcloud.ccwu.cc/steps/) | Today's step ring, a 7-day chart, and a breakdown of each day |
+| 04 | [Games](https://dreamcloud.ccwu.cc/games/) | A maze game, Bridge Runner, Bomber, rock-paper-scissors, and tic-tac-toe. A keyboard or phone can be the controller |
+| 05 | [Other apps](https://dreamcloud.ccwu.cc/apps/) | Messenger, walkie-talkie, vocabulary, Zhuyin input, parent mode, and daily tools |
+| 06 | [Updates](https://dreamcloud.ccwu.cc/updates/) | What changed, what is next, and common questions |
+| 07 | [Forum](https://dreamcloud.ccwu.cc/forum/) | Bugs, questions, improvements, and wishes |
+
+Round AMOLED under two inches · microphone and speaker · Wi‑Fi · motion and step counting · Traditional Chinese, Zhuyin, and English · parent mode
+
+### What is inside
+
+#### Dragon
+
+Feed it, let it sleep, or hold to hug it. Life, hunger, mood, and stamina change with that care. The six stages are egg, baby, juvenile, youth, adult, and ancient dragon. Each dragon has its own personality, level, and evolution stage.
+
+Tilt the device to fly through sky and forest stages. You can also duel an NPC dragon. While the home screen is open, a friend's duel invite can still arrive.
+
+The dragon and the AI companion are separate modes today. A closer link between them is still planned.
+
+[Dragon on the website →](https://dreamcloud.ccwu.cc/dragon/)
+
+#### AI Companion and AI Remote
+
+The companion listens while you hold to talk, then answers by voice. It connects to a mainstream AI service you choose. Voices include a Taiwanese accent, American English, and British English. If the network voice fails, a backup voice takes over. One reply is never switched to another voice halfway through.
+
+AI Remote turns one sentence into a task for an AI assistant on your computer. Pick the assistant, dictate or type with Zhuyin, then confirm. A ring shows the wait. When it finishes, you can read the reply or hear a short spoken summary. Only assistants installed on that computer are listed. A pairing code is on by default, and you can turn it off on your home network. If you leave the screen, the reply comes back as a message bubble.
+
+AI does not run offline on the device. It needs a network, the computer companion app, and your own AI account.
+
+[AI on the website →](https://dreamcloud.ccwu.cc/ai/)
+
+#### Steps and walking
+
+Count steps on a wrist or in a pocket. If the sensor misses a moment, another method fills the gap. The launcher draws today's steps as a ring, and the navigation bar shows the count too. The step counter and the daily goal are separate settings. Walking time counts continuous walking only.
+
+The walking app shows the last seven days as bars. Tap a day for steps, continuous walking time, estimated distance, goal progress, and the hourly spread. Distance is an estimate.
+
+[Steps on the website →](https://dreamcloud.ccwu.cc/steps/)
+
+#### Games
+
+In the maze game, the mouth opens toward the way it moves. Tilt or swipe to steer, and you can queue the next turn. Each round starts with a countdown. The maze is orange-gold neon, and the music is original.
+
+Bridge Runner can be played alone, or with a nearby second device. It has chapters, upper and lower paths, and checkpoints. Progress is still there the next time you open it.
+
+Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard or an Android phone can be the controller for Bomber, dragon duel, the dragon map, and the maze game.
+
+[Games on the website →](https://dreamcloud.ccwu.cc/games/)
+
+#### Other apps
+
+- **Messenger:** hold to talk. On the computer or Android app, connect LINE, Telegram, Discord, Slack, WhatsApp, WeCom, or Facebook Messenger.
+- **Walkie-talkie:** pick a nearby friend, hold to talk, or send text.
+- **Vocabulary:** see the word with Zhuyin, then hold and say it.
+- **Zhuyin keyboard:** split into left and right halves so the keys are larger, with a separate number pad.
+- **Parent mode:** a password gate for which apps appear, how long they can be used, and a class schedule.
+- **Clock and calculator:** alarm, stopwatch, and timer; a simple calculator and a scientific one.
+- **Settings:** Wi‑Fi, brightness, volume, device name, clock sync, and language. Boot reconnects to a remembered network. Hold the power key for about one second to turn on. If the screen sticks, hold it for about six seconds to force power off.
+
+The Windows companion is one file. Double-click it, and the first launch walks through setup. The Android app can connect chat services, choose an English voice, and act as a game controller. Both show the firmware version on the device.
+
+[Other apps on the website →](https://dreamcloud.ccwu.cc/apps/)
+
+### Hardware
+
+Dreamcloud is based on the Waveshare [ESP32-S3-Touch-AMOLED-1.75C](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-1.75C). The round display, touch, speaker, microphone, Wi‑Fi, and six-axis sensor come from that board. Waveshare's documentation, schematic, and factory examples are on their docs site and in [waveshareteam/ESP32-S3-Touch-AMOLED-1.75C](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C).
+
+| | |
+| --- | --- |
+| Board | Waveshare ESP32-S3-Touch-AMOLED-1.75C |
+| MCU | ESP32-S3R8, up to 240 MHz |
+| Display | 1.75-inch 466×466 AMOLED, CO5300, QSPI |
+| Touch | CST9217 capacitive controller |
+| Audio | Onboard microphone and speaker |
+| Wireless | 2.4 GHz Wi‑Fi, Bluetooth 5 LE |
+| Motion | QMI8658 six-axis IMU (accelerometer and gyroscope) |
+| Memory | 32 MB flash, 8 MB PSRAM |
+| Connector | USB Type-C. The case has room for a battery |
+
+### App icons
+
+Top row: AI Companion, AI Remote, vocabulary, pet dragon, walkie-talkie, messenger, Bridge Runner, maze game.  
+Bottom row: Bomber, rock-paper-scissors, tic-tac-toe, clock, calculator, parent mode, settings.
+
+The icons are in the [picture row above](#app-icons).
+
+### Recent progress
+
+The full log is on the [updates page](https://dreamcloud.ccwu.cc/updates/). The forum has the day-by-day notes.
+
+- **Oct 26** New device screenshots on the website, including Bridge Runner and the walking goals.
+- **Oct 25** Bridge Runner can invite a nearby device for co-op.
+- **Oct 21** Gemini, ChatGPT, and Claude can talk inside the computer app. Walking gained an hourly step chart.
+- **Oct 19** Hold the power key for about one second to turn on. Hold for about six seconds to force power off.
+- **Oct 16** The walking app arrived. The Windows companion became a single file.
+- **Oct 13** Messenger can choose which chat service to connect, from the computer app.
+
+### Questions
+
+**Does AI run offline on the device?**  
+No. The dragon, the games, and the tools run on the device. Conversation and remote tasks need a network, the computer companion, and your own AI account.
+
+**Does the dragon talk through the AI?**  
+Not yet. The dragon and the AI companion are separate modes.
+
+**Can a child use it?**  
+Parent mode is behind a password. It can hide apps and set class hours. The interface includes Zhuyin.
+
+**Do steps require a wrist?**  
+No. Wrist and pocket modes are both available. Distance is an estimate.
+
+**What does the computer need?**  
+One Windows file. Double-click it. AI features and the keyboard controller use it. Messenger and the controller can use the Android app instead.
+
+**Are the pictures from a real device?**  
+Yes. This is a development build, so the finished screens may change.
+
+### Tell us
+
+Bugs, confusing spots, and things you wish it could do are all welcome. Guests can post without an account.
+
+- [Report a bug](https://dreamcloud.ccwu.cc/forum/?c=bug)
+- [Ask a question](https://dreamcloud.ccwu.cc/forum/?c=question)
+- [Suggest an improvement](https://dreamcloud.ccwu.cc/forum/?c=improvement)
+- [Make a wish](https://dreamcloud.ccwu.cc/forum/?c=feature)
+
+[Open the forum →](https://dreamcloud.ccwu.cc/forum/)
