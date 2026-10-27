@@ -56,7 +56,7 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 傾斜裝置可以飛過天空和森林關卡。也可以和 NPC 飛龍對決；待在主畫面時，收得到朋友的對戰邀請。
 
-龍寵和 AI 夥伴目前是分開的模式，兩者更深的連動還在規劃。
+孵化之後可以跟龍說話。在主畫面按住說話，牠會聽完再用語音回你。這條語音走電腦端，需要網路，不是在裝置上離線跑的。龍還是蛋，或正在飛行、對戰時，先不能對話。AI 夥伴仍然是另一個 App。
 
 [到官網看龍寵 →](https://dreamcloud.ccwu.cc/dragon/)
 
@@ -205,10 +205,10 @@ Dreamcloud 基於微雪的 [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.
 ### 常見問題
 
 **AI 是在裝置上離線運作的嗎？**  
-不是。龍寵、小遊戲和工具可以直接在裝置上用。AI 對話和遠端任務需要網路、電腦端配套程式，和你自己的 AI 服務帳號。
+不是。龍寵的照顧、飛行、對戰，以及小遊戲和工具，可以直接在裝置上用。跟龍說話、AI 夥伴對話，和遠端任務，需要網路和電腦端配套程式。AI 對話還需要你自己的 AI 服務帳號。
 
 **龍寵會直接用 AI 跟我對話嗎？**  
-目前還不會。龍寵和 AI 夥伴是分開的模式。
+會。龍孵出來之後，在主畫面按住說話，牠會聆聽，再用語音回你。需要網路和電腦端配套程式。龍還是蛋的時候，或正在飛行、對戰時，先不能對話。AI 夥伴仍然是另一個 App。
 
 **適合小朋友用嗎？**  
 有密碼保護的家長模式，可以設定 App 顯示和上課時段。介面也有注音。
@@ -263,7 +263,7 @@ Feed it, let it sleep, or hold to hug it. Life, hunger, mood, and stamina change
 
 Tilt the device to fly through sky and forest stages. You can also duel an NPC dragon. While the home screen is open, a friend's duel invite can still arrive.
 
-The dragon and the AI companion are separate modes today. A closer link between them is still planned.
+After it hatches, you can talk to the dragon. Hold to speak on its home screen, and it answers by voice. That voice goes through the computer companion and needs a network. It does not run offline on the device. The dragon cannot talk while it is still an egg, or during a flight stage or a duel. AI Companion is still a separate app.
 
 [Dragon on the website →](https://dreamcloud.ccwu.cc/dragon/)
 
@@ -390,10 +390,10 @@ The full log is on the [updates page](https://dreamcloud.ccwu.cc/updates/). The 
 ### Questions
 
 **Does AI run offline on the device?**  
-No. The dragon, the games, and the tools run on the device. Conversation and remote tasks need a network, the computer companion, and your own AI account.
+No. Feeding, flights, duels, the games, and the tools run on the device. Talking with the dragon, the AI companion, and remote tasks need a network and the computer companion. AI conversation also needs your own AI account.
 
 **Does the dragon talk through the AI?**  
-Not yet. The dragon and the AI companion are separate modes.
+Yes. After it hatches, hold to talk on its home screen. It listens and answers by voice. That needs a network and the computer companion. It cannot talk while it is still an egg, or during a flight stage or a duel. AI Companion is still a separate app.
 
 **Can a child use it?**  
 Parent mode is behind a password. It can hide apps and set class hours. The interface includes Zhuyin.
