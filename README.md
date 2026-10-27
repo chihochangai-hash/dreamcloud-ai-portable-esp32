@@ -23,7 +23,8 @@ Still in development. This repository currently holds the introduction, device s
   <img src="docs/screenshots/walkie.png" width="220" alt="Walkie-talkie: waiting for a nearby device.">
 </p>
 
-實機畫面（開發版） · Device screenshots, development build
+實機畫面（開發版）。同一個畫面有較新的截圖就用新的，沒有的就用目前留下的最新一張。  
+Device screenshots from the development build. Where a newer capture exists, that one is shown. Otherwise the latest capture we have is used.
 
 ## 中文
 
@@ -59,7 +60,15 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 
 [到官網看龍寵 →](https://dreamcloud.ccwu.cc/dragon/)
 
-<img src="docs/screenshots/dragon.png" width="280" alt="龍寵主畫面">
+<p>
+  <img src="docs/screenshots/dragon.png" width="220" alt="龍寵主畫面：幼龍與今日步數">
+  <img src="docs/screenshots/dragon-setup.png" width="220" alt="替龍取名字">
+  <img src="docs/screenshots/flight-sky.png" width="220" alt="體感關：天空">
+  <img src="docs/screenshots/flight-forest.png" width="220" alt="體感關：森林">
+  <img src="docs/screenshots/duel.png" width="220" alt="飛龍對戰">
+</p>
+
+主畫面是較新的實機畫面。取名字、森林關和對戰沒有更新的截圖，天空關用較新的一張。
 
 #### AI 夥伴與 AI 遙控
 
@@ -81,7 +90,10 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 
 [到官網看計步 →](https://dreamcloud.ccwu.cc/steps/)
 
-<img src="docs/screenshots/walker.png" width="280" alt="健走：7 天步數">
+<p>
+  <img src="docs/screenshots/walker.png" width="220" alt="健走：7 天步數">
+  <img src="docs/screenshots/settings-steps.png" width="220" alt="設定：每日步數目標與配戴方式">
+</p>
 
 #### 遊戲
 
@@ -94,9 +106,13 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 [到官網看遊戲 →](https://dreamcloud.ccwu.cc/games/)
 
 <p>
-  <img src="docs/screenshots/pacman.png" width="280" alt="小精靈：第 1 關">
-  <img src="docs/screenshots/bridge.png" width="280" alt="橋上跑者：單人開始或雙人合作">
+  <img src="docs/screenshots/pacman.png" width="220" alt="小精靈：第 1 關">
+  <img src="docs/screenshots/bridge.png" width="220" alt="橋上跑者：單人開始或雙人合作">
+  <img src="docs/screenshots/rps.png" width="220" alt="猜拳：選擇出招">
+  <img src="docs/screenshots/tictactoe.png" width="220" alt="井字遊戲">
 </p>
+
+小精靈和橋上跑者是較新的畫面。猜拳和井字沒有更新的截圖。
 
 #### 其他 App
 
@@ -112,7 +128,25 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
 
 [到官網看其他 App →](https://dreamcloud.ccwu.cc/apps/)
 
-<img src="docs/screenshots/walkie.png" width="280" alt="對講機">
+<p>
+  <img src="docs/screenshots/walkie.png" width="220" alt="對講機：等待附近的裝置上線">
+  <img src="docs/screenshots/messenger.png" width="220" alt="即時通：已連線，按住說話">
+  <img src="docs/screenshots/vocabulary.png" width="220" alt="單字學習：文字和注音">
+  <img src="docs/screenshots/clock.png" width="220" alt="時鐘：鬧鐘、碼表、計時">
+</p>
+<p>
+  <img src="docs/screenshots/zhuyin-left.png" width="220" alt="注音輸入：左鍵盤">
+  <img src="docs/screenshots/zhuyin-right.png" width="220" alt="注音輸入：右鍵盤">
+  <img src="docs/screenshots/zhuyin-numbers.png" width="220" alt="注音輸入：數字面板">
+  <img src="docs/screenshots/parent.png" width="220" alt="家長模式：App 顯示與使用時間">
+</p>
+<p>
+  <img src="docs/screenshots/calculator-simple.png" width="220" alt="簡易計算機">
+  <img src="docs/screenshots/calculator.png" width="220" alt="工程計算機">
+  <img src="docs/screenshots/settings.png" width="220" alt="設定：顯示、聲音、連線">
+</p>
+
+對講機和即時通用較新的畫面。單字、時鐘、注音、家長模式、計算機和設定沒有更新的截圖。
 
 ### 硬體
 
@@ -233,6 +267,16 @@ The dragon and the AI companion are separate modes today. A closer link between 
 
 [Dragon on the website →](https://dreamcloud.ccwu.cc/dragon/)
 
+<p>
+  <img src="docs/screenshots/dragon.png" width="180" alt="Pet dragon home">
+  <img src="docs/screenshots/dragon-setup.png" width="180" alt="Name the dragon">
+  <img src="docs/screenshots/flight-sky.png" width="180" alt="Sky stage">
+  <img src="docs/screenshots/flight-forest.png" width="180" alt="Forest stage">
+  <img src="docs/screenshots/duel.png" width="180" alt="Dragon duel">
+</p>
+
+The home screen is a newer capture. Naming, the forest stage, and the duel have no newer screenshot. The sky stage uses the newer capture.
+
 #### AI Companion and AI Remote
 
 The companion listens while you hold to talk, then answers by voice. It connects to a mainstream AI service you choose. Voices include a Taiwanese accent, American English, and British English. If the network voice fails, a backup voice takes over. One reply is never switched to another voice halfway through.
@@ -251,6 +295,11 @@ The walking app shows the last seven days as bars. Tap a day for steps, continuo
 
 [Steps on the website →](https://dreamcloud.ccwu.cc/steps/)
 
+<p>
+  <img src="docs/screenshots/walker.png" width="180" alt="Walking: seven-day steps">
+  <img src="docs/screenshots/settings-steps.png" width="180" alt="Step goal and where the device is worn">
+</p>
+
 #### Games
 
 In the maze game, the mouth opens toward the way it moves. Tilt or swipe to steer, and you can queue the next turn. Each round starts with a countdown. The maze is orange-gold neon, and the music is original.
@@ -260,6 +309,15 @@ Bridge Runner can be played alone, or with a nearby second device. It has chapte
 Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard or an Android phone can be the controller for Bomber, dragon duel, the dragon map, and the maze game.
 
 [Games on the website →](https://dreamcloud.ccwu.cc/games/)
+
+<p>
+  <img src="docs/screenshots/pacman.png" width="180" alt="Maze game, stage 1">
+  <img src="docs/screenshots/bridge.png" width="180" alt="Bridge Runner: solo or co-op">
+  <img src="docs/screenshots/rps.png" width="180" alt="Rock-paper-scissors">
+  <img src="docs/screenshots/tictactoe.png" width="180" alt="Tic-tac-toe">
+</p>
+
+The maze game and Bridge Runner are newer captures. Rock-paper-scissors and tic-tac-toe have no newer screenshot.
 
 #### Other apps
 
@@ -274,6 +332,26 @@ Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard 
 The Windows companion is one file. Double-click it, and the first launch walks through setup. The Android app can connect chat services, choose an English voice, and act as a game controller. Both show the firmware version on the device.
 
 [Other apps on the website →](https://dreamcloud.ccwu.cc/apps/)
+
+<p>
+  <img src="docs/screenshots/walkie.png" width="180" alt="Walkie-talkie">
+  <img src="docs/screenshots/messenger.png" width="180" alt="Messenger, connected">
+  <img src="docs/screenshots/vocabulary.png" width="180" alt="Vocabulary with Zhuyin">
+  <img src="docs/screenshots/clock.png" width="180" alt="Clock: alarm, stopwatch, timer">
+</p>
+<p>
+  <img src="docs/screenshots/zhuyin-left.png" width="180" alt="Zhuyin keyboard, left half">
+  <img src="docs/screenshots/zhuyin-right.png" width="180" alt="Zhuyin keyboard, right half">
+  <img src="docs/screenshots/zhuyin-numbers.png" width="180" alt="Zhuyin number pad">
+  <img src="docs/screenshots/parent.png" width="180" alt="Parent mode">
+</p>
+<p>
+  <img src="docs/screenshots/calculator-simple.png" width="180" alt="Simple calculator">
+  <img src="docs/screenshots/calculator.png" width="180" alt="Scientific calculator">
+  <img src="docs/screenshots/settings.png" width="180" alt="Settings">
+</p>
+
+The walkie-talkie and messenger shots are newer. Vocabulary, clock, Zhuyin, parent mode, the calculators, and settings have no newer screenshot.
 
 ### Hardware
 
