@@ -23,9 +23,6 @@ Still in development. This repository currently holds the introduction, device s
   <img src="docs/screenshots/walkie.png" width="220" alt="Walkie-talkie: waiting for a nearby device.">
 </p>
 
-實機畫面（開發版）。同一個畫面有較新的截圖就用新的，沒有的就用目前留下的最新一張。  
-Device screenshots from the development build. Where a newer capture exists, that one is shown. Otherwise the latest capture we have is used.
-
 ## 中文
 
 Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇叭。裡面住著一隻會長大的小龍；想問問題，或把待辦交給電腦上的 AI 助理，按住說話就好。
@@ -67,8 +64,6 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
   <img src="docs/screenshots/flight-forest.png" width="220" alt="體感關：森林">
   <img src="docs/screenshots/duel.png" width="220" alt="飛龍對戰">
 </p>
-
-主畫面是較新的實機畫面。取名字、森林關和對戰沒有更新的截圖，天空關用較新的一張。
 
 #### AI 夥伴與 AI 遙控
 
@@ -112,8 +107,6 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
   <img src="docs/screenshots/tictactoe.png" width="220" alt="井字遊戲">
 </p>
 
-小精靈和橋上跑者是較新的畫面。猜拳和井字沒有更新的截圖。
-
 #### 其他 App
 
 - **即時通：** 按住說話傳訊。可以接 LINE、Telegram、Discord、Slack、WhatsApp、企業微信或 FB Messenger，在電腦端或 Android 端選。
@@ -145,8 +138,6 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
   <img src="docs/screenshots/calculator.png" width="220" alt="工程計算機">
   <img src="docs/screenshots/settings.png" width="220" alt="設定：顯示、聲音、連線">
 </p>
-
-對講機和即時通用較新的畫面。單字、時鐘、注音、家長模式、計算機和設定沒有更新的截圖。
 
 ### 硬體
 
@@ -275,8 +266,6 @@ After it hatches, you can talk to the dragon. Hold to speak on its home screen, 
   <img src="docs/screenshots/duel.png" width="180" alt="Dragon duel">
 </p>
 
-The home screen is a newer capture. Naming, the forest stage, and the duel have no newer screenshot. The sky stage uses the newer capture.
-
 #### AI Companion and AI Remote
 
 The companion listens while you hold to talk, then answers by voice. It connects to a mainstream AI service you choose. Voices include a Taiwanese accent, American English, and British English. If the network voice fails, a backup voice takes over. One reply is never switched to another voice halfway through.
@@ -317,8 +306,6 @@ Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard 
   <img src="docs/screenshots/tictactoe.png" width="180" alt="Tic-tac-toe">
 </p>
 
-The maze game and Bridge Runner are newer captures. Rock-paper-scissors and tic-tac-toe have no newer screenshot.
-
 #### Other apps
 
 - **Messenger:** hold to talk. On the computer or Android app, connect LINE, Telegram, Discord, Slack, WhatsApp, WeCom, or Facebook Messenger.
@@ -350,8 +337,6 @@ The Windows companion is one file. Double-click it, and the first launch walks t
   <img src="docs/screenshots/calculator.png" width="180" alt="Scientific calculator">
   <img src="docs/screenshots/settings.png" width="180" alt="Settings">
 </p>
-
-The walkie-talkie and messenger shots are newer. Vocabulary, clock, Zhuyin, parent mode, the calculators, and settings have no newer screenshot.
 
 ### Hardware
 
