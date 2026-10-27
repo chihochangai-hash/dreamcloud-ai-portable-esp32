@@ -103,6 +103,7 @@ AI 不是在裝置上離線跑的。需要網路、電腦端配套程式，和�
 <p>
   <img src="docs/screenshots/pacman.png" width="220" alt="小精靈：第 1 關">
   <img src="docs/screenshots/bridge.png" width="220" alt="橋上跑者：單人開始或雙人合作">
+  <img src="docs/screenshots/bomber.png" width="220" alt="炸彈人：放置炸彈炸開磚牆">
   <img src="docs/screenshots/rps.png" width="220" alt="猜拳：選擇出招">
   <img src="docs/screenshots/tictactoe.png" width="220" alt="井字遊戲">
 </p>
@@ -302,6 +303,7 @@ Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard 
 <p>
   <img src="docs/screenshots/pacman.png" width="180" alt="Maze game, stage 1">
   <img src="docs/screenshots/bridge.png" width="180" alt="Bridge Runner: solo or co-op">
+  <img src="docs/screenshots/bomber.png" width="180" alt="Bomber: place a bomb and break the brick walls">
   <img src="docs/screenshots/rps.png" width="180" alt="Rock-paper-scissors">
   <img src="docs/screenshots/tictactoe.png" width="180" alt="Tic-tac-toe">
 </p>
