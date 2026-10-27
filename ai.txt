@@ -1,0 +1,7 @@
+# Dreamcloud: no AI / machine-learning training or dataset use permitted.
+# © 2026 Dreamcloud team. All rights reserved. See COPYRIGHT.md.
+User-Agent: *
+Disallow: /
+Disallow: *.png
+Disallow: *.jpg
+Disallow: *.webp

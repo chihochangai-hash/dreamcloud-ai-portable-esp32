@@ -225,6 +225,10 @@ Windows 電腦端程式是一個檔案，雙擊就能用。AI 功能和鍵盤手
 
 [到討論區留言 →](https://dreamcloud.ccwu.cc/forum/)
 
+### 圖片與著作權
+
+本頁所有截圖、圖示與介面設計皆為 © 2026 Dreamcloud 團隊所有，保留所有權利，未以開放授權釋出。未經同意，請勿重製、轉載、改作，也不得用於 AI／機器學習訓練或生成仿作。圖片內含識別用數位標記。詳見 [COPYRIGHT.md](COPYRIGHT.md)。
+
 ## English
 
 Dreamcloud has a round AMOLED screen under two inches, with a microphone and a speaker. A little dragon lives on it and grows when you look after it. Hold the button and talk to ask a question, or to hand a task to an AI assistant on your computer.
@@ -404,3 +408,7 @@ Bugs, confusing spots, and things you wish it could do are all welcome. Guests c
 - [Make a wish](https://dreamcloud.ccwu.cc/forum/?c=feature)
 
 [Open the forum →](https://dreamcloud.ccwu.cc/forum/)
+
+### Images and copyright
+
+All screenshots, icons and interface designs on this page are © 2026 Dreamcloud team, all rights reserved, and are not released under an open license. Do not copy, repost or adapt them, or use them for AI / machine-learning training or generative imitation, without permission. Images carry identifying digital marks. See [COPYRIGHT.md](COPYRIGHT.md).
