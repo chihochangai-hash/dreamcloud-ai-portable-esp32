@@ -65,6 +65,8 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
   <img src="docs/screenshots/duel.png" width="220" alt="飛龍對戰">
 </p>
 
+[龍寵開發實機，4 倍速](docs/videos/dragon-playtest-4x.mp4)
+
 #### AI 夥伴與 AI 遙控
 
 AI 夥伴陪你聊天：按住說話，角色會聆聽、思考，再用語音回你。可以連接你選的主流 AI 服務，聲音有台灣口音、美式英文和英式英文。網路語音不能用時，會自動換成備用聲音。
@@ -267,6 +269,8 @@ After it hatches, you can talk to the dragon. Hold to speak on its home screen, 
   <img src="docs/screenshots/flight-forest.png" width="180" alt="Forest stage">
   <img src="docs/screenshots/duel.png" width="180" alt="Dragon duel">
 </p>
+
+[Dragon on-device playtest, 4× speed](docs/videos/dragon-playtest-4x.mp4)
 
 #### AI Companion and AI Remote
 
