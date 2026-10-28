@@ -65,7 +65,9 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
   <img src="docs/screenshots/duel.png" width="220" alt="飛龍對戰">
 </p>
 
-[龍寵開發實機，4 倍速](docs/videos/dragon-playtest-4x.mp4)
+龍寵開發實機，4 倍速
+
+https://github.com/user-attachments/assets/afa90ef8-8004-4baf-8fd3-2d48d4a76f06
 
 #### AI 夥伴與 AI 遙控
 
@@ -270,7 +272,9 @@ After it hatches, you can talk to the dragon. Hold to speak on its home screen, 
   <img src="docs/screenshots/duel.png" width="180" alt="Dragon duel">
 </p>
 
-[Dragon on-device playtest, 4× speed](docs/videos/dragon-playtest-4x.mp4)
+Dragon on-device playtest, 4× speed
+
+https://github.com/user-attachments/assets/afa90ef8-8004-4baf-8fd3-2d48d4a76f06
 
 #### AI Companion and AI Remote
 
