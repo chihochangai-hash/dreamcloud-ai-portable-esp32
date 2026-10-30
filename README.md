@@ -39,7 +39,7 @@ Dreamcloud 有一塊不到兩吋的圓形 AMOLED 螢幕，內建麥克風和喇�
 | 02 | [AI 夥伴與 AI 遙控](https://dreamcloud.ccwu.cc/ai/) | 跟 AI 說話；把一句話變成交給電腦上 AI 助理的任務 |
 | 03 | [計步與健走](https://dreamcloud.ccwu.cc/steps/) | 今日步數圓環、7 天曲線、每天的行走分析 |
 | 04 | [遊戲](https://dreamcloud.ccwu.cc/games/) | 小精靈、橋上跑者、炸彈人、猜拳、井字；鍵盤或手機能當手把 |
-| 05 | [其他 App](https://dreamcloud.ccwu.cc/apps/) | 即時通、對講機、單字學習、注音輸入、家長模式和日常工具 |
+| 05 | [其他 App](https://dreamcloud.ccwu.cc/apps/) | 即時通、對講機、單字學習、數字書寫、注音教學、注音輸入、家長模式和日常工具 |
 | 06 | [更新與開發進度](https://dreamcloud.ccwu.cc/updates/) | 每天改了什麼、接下來做什麼、常見問題 |
 | 07 | [討論區](https://dreamcloud.ccwu.cc/forum/) | 回報 Bug、問問題、改善建議、許願 |
 
@@ -117,6 +117,8 @@ AI 遙控把一句話變成交給電腦上 AI 助理的任務。選助理、用�
 - **即時通：** 按住說話傳訊。可以接 LINE、Telegram、Discord、Slack、WhatsApp、企業微信或 FB Messenger，在電腦端或 Android 端選。
 - **對講機：** 選附近的好友，按住說話，也能傳文字。
 - **單字學習：** 文字和注音一起看，按住說話跟著念。
+- **數字書寫：** 從 1 寫到 100，沿著虛線和箭頭描。可以聽中英文發音；語音沒連上時一樣能寫。
+- **注音教學：** 37 個注音符號，一筆一筆沿著虛線描，也可以聽發音。
 - **注音輸入：** 左右分區，按鍵比較大；數字另外一頁。
 - **家長模式：** 密碼保護。可以設定哪些 App 要顯示、能用多久、上課時間表。
 - **時鐘與計算機：** 鬧鐘、碼表、計時；簡易計算和工程計算。
@@ -168,6 +170,8 @@ Dreamcloud 基於微雪的 [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.
   <img src="docs/icons/ai-companion.png" width="72" alt="AI 夥伴">
   <img src="docs/icons/ai-remote.png" width="72" alt="AI 遙控">
   <img src="docs/icons/vocabulary.png" width="72" alt="單字學習">
+  <img src="docs/icons/number-writing.png" width="72" alt="數字書寫">
+  <img src="docs/icons/zhuyin-tutor.png" width="72" alt="注音教學">
   <img src="docs/icons/dragon.png" width="72" alt="電子龍寵">
   <img src="docs/icons/walkie.png" width="72" alt="對講機">
   <img src="docs/icons/messenger.png" width="72" alt="即時通">
@@ -184,13 +188,14 @@ Dreamcloud 基於微雪的 [Waveshare ESP32-S3-Touch-AMOLED-1.75C](https://docs.
   <img src="docs/icons/settings.png" width="72" alt="設定">
 </p>
 
-上排：AI 夥伴、AI 遙控、單字學習、電子龍寵、對講機、即時通、橋上跑者、小精靈。  
+上排：AI 夥伴、AI 遙控、單字學習、數字書寫、注音教學、電子龍寵、對講機、即時通、橋上跑者、小精靈。  
 下排：炸彈人、猜拳、井字遊戲、時鐘、計算機、家長模式、設定。
 
 ### 最近的進度
 
 完整日誌在官網的[更新與開發進度](https://dreamcloud.ccwu.cc/updates/)，討論區也有每天的紀錄。
 
+- **10/28** 即時通換成信封圖示。新增數字書寫和注音教學。
 - **10/26** 官網換上新的實機畫面。遊戲頁補上橋上跑者，計步頁換上新版健走與步數目標。
 - **10/25** 橋上跑者可以邀請附近另一支裝置雙人合作。
 - **10/21** Gemini、ChatGPT、Claude 可以直接在電腦端程式裡對話。健走多了每小時步數分布。
@@ -246,7 +251,7 @@ Each area has its own page.
 | 02 | [AI Companion and AI Remote](https://dreamcloud.ccwu.cc/ai/) | Talk with an AI, or turn one sentence into a task for an assistant on your computer |
 | 03 | [Steps and walking](https://dreamcloud.ccwu.cc/steps/) | Today's step ring, a 7-day chart, and a breakdown of each day |
 | 04 | [Games](https://dreamcloud.ccwu.cc/games/) | Pac-Man-style maze (小精靈), Bridge Runner, Bomber, rock-paper-scissors, and tic-tac-toe. A keyboard or phone can be the controller |
-| 05 | [Other apps](https://dreamcloud.ccwu.cc/apps/) | Messenger, walkie-talkie, vocabulary, Zhuyin input, parent mode, and daily tools |
+| 05 | [Other apps](https://dreamcloud.ccwu.cc/apps/) | Messenger, walkie-talkie, vocabulary, number writing, Zhuyin practice, Zhuyin input, parent mode, and daily tools |
 | 06 | [Updates](https://dreamcloud.ccwu.cc/updates/) | What changed, what is next, and common questions |
 | 07 | [Forum](https://dreamcloud.ccwu.cc/forum/) | Bugs, questions, improvements, and wishes |
 
@@ -322,6 +327,8 @@ Bomber, rock-paper-scissors, and tic-tac-toe are there too. A computer keyboard 
 - **Messenger:** hold to talk. On the computer or Android app, connect LINE, Telegram, Discord, Slack, WhatsApp, WeCom, or Facebook Messenger.
 - **Walkie-talkie:** pick a nearby friend, hold to talk, or send text.
 - **Vocabulary:** see the word with Zhuyin, then hold and say it.
+- **Number writing:** trace 1 through 100 along the dotted strokes and arrows. It can speak the number in Chinese and English. Writing still works when the voice is offline.
+- **Zhuyin practice:** trace all 37 Zhuyin symbols, one stroke at a time, and hear each one.
 - **Zhuyin keyboard:** split into left and right halves so the keys are larger, with a separate number pad.
 - **Parent mode:** a password gate for which apps appear, how long they can be used, and a class schedule.
 - **Clock and calculator:** alarm, stopwatch, and timer; a simple calculator and a scientific one.
@@ -367,7 +374,7 @@ Dreamcloud is based on the Waveshare [ESP32-S3-Touch-AMOLED-1.75C](https://docs.
 
 ### App icons
 
-Top row: AI Companion, AI Remote, vocabulary, pet dragon, walkie-talkie, messenger, Bridge Runner, maze game.  
+Top row: AI Companion, AI Remote, vocabulary, number writing, Zhuyin practice, pet dragon, walkie-talkie, messenger, Bridge Runner, maze game.  
 Bottom row: Bomber, rock-paper-scissors, tic-tac-toe, clock, calculator, parent mode, settings.
 
 The icons are in the [picture row above](#app-icons).
@@ -376,6 +383,7 @@ The icons are in the [picture row above](#app-icons).
 
 The full log is on the [updates page](https://dreamcloud.ccwu.cc/updates/). The forum has the day-by-day notes.
 
+- **Oct 28** Messenger uses the envelope icon. Number writing and Zhuyin practice were added.
 - **Oct 26** New device screenshots on the website, including Bridge Runner and the walking goals.
 - **Oct 25** Bridge Runner can invite a nearby device for co-op.
 - **Oct 21** Gemini, ChatGPT, and Claude can talk inside the computer app. Walking gained an hourly step chart.
