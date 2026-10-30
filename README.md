@@ -135,6 +135,12 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
   <img src="docs/screenshots/clock.png" width="220" alt="時鐘：鬧鐘、碼表、計時">
 </p>
 <p>
+  <img src="docs/screenshots/number-write-3.png" width="220" alt="數字書寫：描寫數字 3，有清除與發音">
+  <img src="docs/screenshots/number-write-4.png" width="220" alt="數字書寫：數字 4 的筆順引導">
+  <img src="docs/screenshots/zhuyin-tutor.png" width="220" alt="注音教學：練習寫 ㄆ，第 1 筆引導">
+  <img src="docs/screenshots/zhuyin-tutor-wrong.png" width="220" alt="注音教學：筆畫不符，按清除重寫">
+</p>
+<p>
   <img src="docs/screenshots/zhuyin-left.png" width="220" alt="注音輸入：左鍵盤">
   <img src="docs/screenshots/zhuyin-right.png" width="220" alt="注音輸入：右鍵盤">
   <img src="docs/screenshots/zhuyin-numbers.png" width="220" alt="注音輸入：數字面板">
@@ -343,6 +349,12 @@ The Windows companion is one file. Double-click it, and the first launch walks t
   <img src="docs/screenshots/messenger.png" width="180" alt="Messenger, connected">
   <img src="docs/screenshots/vocabulary.png" width="180" alt="Vocabulary with Zhuyin">
   <img src="docs/screenshots/clock.png" width="180" alt="Clock: alarm, stopwatch, timer">
+</p>
+<p>
+  <img src="docs/screenshots/number-write-3.png" width="180" alt="Number writing: tracing 3, with Clear and Speak">
+  <img src="docs/screenshots/number-write-4.png" width="180" alt="Number writing: stroke guide for 4">
+  <img src="docs/screenshots/zhuyin-tutor.png" width="180" alt="Zhuyin practice: tracing ㄆ, first-stroke guide">
+  <img src="docs/screenshots/zhuyin-tutor-wrong.png" width="180" alt="Zhuyin practice: stroke mismatch, tap Clear to rewrite">
 </p>
 <p>
   <img src="docs/screenshots/zhuyin-left.png" width="180" alt="Zhuyin keyboard, left half">
