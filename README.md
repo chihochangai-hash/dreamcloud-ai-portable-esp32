@@ -141,6 +141,10 @@ Windows 電腦端程式是一個檔案，雙擊就能用，第一次開啟會帶
   <img src="docs/screenshots/zhuyin-tutor-wrong.png" width="220" alt="注音教學：筆畫不符，按清除重寫">
 </p>
 <p>
+  <img src="docs/screenshots/dragon-shadow.png" width="220" alt="龍寵主畫面：幼龍與地面陰影">
+  <img src="docs/screenshots/bridge-round2.png" width="220" alt="過橋大冒險：第二輪">
+</p>
+<p>
   <img src="docs/screenshots/zhuyin-left.png" width="220" alt="注音輸入：左鍵盤">
   <img src="docs/screenshots/zhuyin-right.png" width="220" alt="注音輸入：右鍵盤">
   <img src="docs/screenshots/zhuyin-numbers.png" width="220" alt="注音輸入：數字面板">
@@ -355,6 +359,10 @@ The Windows companion is one file. Double-click it, and the first launch walks t
   <img src="docs/screenshots/number-write-4.png" width="180" alt="Number writing: stroke guide for 4">
   <img src="docs/screenshots/zhuyin-tutor.png" width="180" alt="Zhuyin practice: tracing ㄆ, first-stroke guide">
   <img src="docs/screenshots/zhuyin-tutor-wrong.png" width="180" alt="Zhuyin practice: stroke mismatch, tap Clear to rewrite">
+</p>
+<p>
+  <img src="docs/screenshots/dragon-shadow.png" width="180" alt="Dragon pet home with ground shadow">
+  <img src="docs/screenshots/bridge-round2.png" width="180" alt="Bridge Adventure: round two">
 </p>
 <p>
   <img src="docs/screenshots/zhuyin-left.png" width="180" alt="Zhuyin keyboard, left half">
